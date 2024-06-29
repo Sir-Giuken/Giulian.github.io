@@ -555,6 +555,83 @@ main {
   line-height: 1.6;
 }
 
+/**
+ * #service-individual 
+ */
+
+.service-individual { margin-bottom: 35px; }
+
+.service-title-individual { margin-bottom: 20px; }
+
+
+.service-list-individual {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 10%;
+  height: 10%;
+  padding: 15px;
+  justify-content: space-between;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.service-item-individual {
+  position: relative;
+  background: var(--border-gradient-onyx);
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: var(--shadow-2);
+  z-index: 1;
+}
+
+.service-item-individual::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  background: var(--bg-gradient-jet);
+  border-radius: inherit;
+  z-index: -1;
+  
+}
+
+
+.service-icon-box-individual { margin-bottom: 10px; }
+
+.service-icon-box-individual img { margin: auto; }
+
+.service-content-box-individual { text-align: center; }
+
+.service-item-title-individual { margin-bottom: 7px; }
+
+.service-item-text-individual {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-3);
+  line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * #testimonials 
